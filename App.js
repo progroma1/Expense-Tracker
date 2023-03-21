@@ -18,6 +18,9 @@ const ExpensesOverview = () => {
       headerTintColor: 'white',
       tabBarStyle: { backgroundColor: GlobalStyles.colors.primary500 },
       tabBarActiveTintColor: GlobalStyles.colors.accent500,
+      headerRight: () => {
+        
+      },
     }}>
       <BottomTabs.Screen
         name='RecentExpenses'
